@@ -1,3 +1,6 @@
+v0.0.1.2
+-changed invalid jwt http status code from 402 to 401
+
 v0.0.1.1
 -added some structures for refresh token implementation
 -Login and Registration under authorization is now a class function

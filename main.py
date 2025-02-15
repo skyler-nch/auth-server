@@ -60,7 +60,7 @@ async def credentials_authentication(token:str):
         payload = ACCESS_TOKEN.decode_token(token)
         return payload
     except OSError:
-        return HTTPException(402,{"message":"invalid JWT"})
+        return HTTPException(401,{"message":"invalid JWT"})
 
 @app.post("/register")
 async def global_register(register_info: RegisterStruct):
