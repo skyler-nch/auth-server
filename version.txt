@@ -1,0 +1,5 @@
+v0.0.1.0
+-Fundemental structure established
+-Login and Registration function included
+-Authentication check for internal services that requires password flow
+-JWE implemented

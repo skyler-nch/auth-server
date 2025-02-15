@@ -1,0 +1,12 @@
+services:
+  auth-server:
+    restart: always
+    image: auth-server:latest
+    ports:
+      - 5004:5004
+    networks:
+      - proxynet
+  
+networks: 
+  proxynet:
+    name: backend_docker_network
