@@ -1,3 +1,7 @@
+v0.0.1.1
+-added some structures for refresh token implementation
+-Login and Registration under authorization is now a class function
+
 v0.0.1.0
 -Fundemental structure established
 -Login and Registration function included
